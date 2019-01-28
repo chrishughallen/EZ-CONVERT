@@ -1,0 +1,36 @@
+main{
+	margin-top:100px;
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+	align-content: center;
+	align-items: center;
+	font-family: sans-serif;
+	min-width:320px;
+}
+
+.converter {
+	min-width: 250px;
+	height:35px;
+}
+
+button.converter{
+	margin-top:10px;
+	background:dodgerblue;
+	opacity:.8;
+	color:white;
+	font-size:13px;
+	text-transform: uppercase;
+	transition: all .3s ease;
+}
+button.converter:hover{
+	transition: all .3s ease;
+	cursor: pointer;
+	opacity:1.0;
+}
+
+#exchange{
+	margin-top: 25px;
+	font-size: 20px;
+	color: green;
+}
